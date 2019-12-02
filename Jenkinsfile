@@ -5,9 +5,7 @@ pipeline {
             customWorkspace "$custom_workspace"
         }
     }
-    environment {
-	    
-	 
+    environment { 
       PATH="/extdrive3/software/anaconda2/bin:$PATH"
     }
     stages {
