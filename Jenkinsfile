@@ -6,6 +6,8 @@ pipeline {
         }
     }
     environment {
+	    
+	 
       PATH="/extdrive3/software/anaconda2/bin:$PATH"
     }
     stages {
